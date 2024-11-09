@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "name": "msg",
+      "queueName": "purchase_events",
+      "connection": "SERVICE_BUS_CONNECTION_STRING"
+    }
+  ],
+  "scriptFile": "index.js"
+}

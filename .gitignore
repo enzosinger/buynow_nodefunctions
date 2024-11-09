@@ -1,0 +1,16 @@
+# Dependências do Node.js
+node_modules/
+
+# Configurações locais do Azure Functions
+local.settings.json
+
+# Arquivos de log
+*.log
+
+# Pastas temporárias
+.temp/
+.vscode/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
